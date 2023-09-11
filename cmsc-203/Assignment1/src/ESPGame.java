@@ -25,6 +25,7 @@ public class ESPGame {
                dueDate,
                color,
                actualColor = null;
+               
         int correctColors = 0;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your name: ");
@@ -45,7 +46,7 @@ public class ESPGame {
             int max = 5,
                 min = 1,
                 range = max - min + 1,
-                randomNumber = (int)(Math.random() * range) + min;
+                randomNumber = (int)(Math.random() * range) + min; //I learned to generate random numbers using the Math class from AP Java.
             
             switch (randomNumber){
                 case 1:
