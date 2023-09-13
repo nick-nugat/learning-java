@@ -5,13 +5,27 @@ public class Patient{
                        emergencyContactName, emergencyPhoneNumber;
         
         public Patient(){
-
+            this.firstName = "John";
+            this.middleName = "Green";
+            this.lastName = "Mike";
+            this.stateAddress = "152 Sample Street";
+            this.city = "MyCity";
+            this.state = "MyState";
+            this.zipCode = "62164";
+            this.emergencyContactName = "Gary";
+            this.emergencyPhoneNumber = "521-627-9872";
         }
 
         public Patient(String firstName, String middleName, String lastName){
             this.firstName = firstName;
             this.middleName = middleName;
             this.lastName = lastName;
+            this.stateAddress = "152 Sample Street";
+            this.city = "MyCity";
+            this.state = "MyState";
+            this.zipCode = "62164";
+            this.emergencyContactName = "Gary";
+            this.emergencyPhoneNumber = "521-627-9872";
         }
 
         public Patient(String firstName, String middleName, String lastName, String stateAddress, String city, String state, String zipCode, String emergencyContactName, String emergencyPhoneNumber){
@@ -65,7 +79,5 @@ public class Patient{
                    "\nAddress: " + buildAddress() + 
                    "\nEmergency Contact: " + buildEmergencyContact();
         }
-
-
     }
 
