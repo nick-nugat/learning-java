@@ -27,6 +27,10 @@ public class GradeBook
       } else return false;      
    }
 
+   /**
+      Gets however many scores are in the scores[] array
+      @return the amount of scores the array contains
+   */
    public int getScoreSize() {
        return scoreSize;
    }
@@ -69,6 +73,10 @@ public class GradeBook
       else return sum() - minimum();
    }
 
+   /**
+      Takes the array of scores[] and converts it to String
+      @return the scores as a String
+   */
    @Override
    public String toString(){
       return Arrays.toString(scores);

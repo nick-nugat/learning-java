@@ -2,19 +2,24 @@
 ## Test plan/screenshots
 ### Running from command line/IDE
 #### Case 1
-![[Attachments/Pasted image 20230927184643.png]]
-> [!check] ##### Passed!
+> [!check] Passed!
+> ![[Attachments/Pasted image 20230927184643.png]]
+
 #### Case 2
-![[Attachments/Pasted image 20230927185019.png]]
-> [!check] ##### Passed!
+> [!check] Passed!
+> ![[Attachments/Pasted image 20230927185019.png]]
+
 #### Case 3
-![[Attachments/Pasted image 20230927185432.png]]
-> [!check] ##### Passed!
+> [!check] Passed!
+> ![[Attachments/Pasted image 20230927185432.png]]
+
 #### Case 4
-![[Attachments/Pasted image 20230927190015.png]]
-> [!check] ##### Passed!
+> [!check] Passed!
+> ![[Attachments/Pasted image 20230927190015.png]]
 
 ### In Github
+![[Attachments/Pasted image 20230927214538.png|500]]
+
 ## UML diagram
 ![[Attachments/Assignment2.png]]
 
