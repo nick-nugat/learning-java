@@ -1,9 +1,9 @@
 ---
-alias: 
+aliases: 
 - "202310091117"
 ---
 # Java Notes
-## Copy methods
+## Ways to copy objects
 **Example of making a copy() method**
 ![[Attachments/Pasted image 20231009111906.png|500]]
 
@@ -11,10 +11,17 @@ alias:
 ![[Attachments/Pasted image 20231009112040.png|500]]
 
 
+## `StringBuilder` class
+- good to use when you want to modify a string of characters (Strings are immutable)
+
+## Tokenizing Strings
+- `split()` method
+	- use to split up a String using a regular expression (returns a String array)
+
+- `strip()` method
+	- removes leading and trailing white spaces
 
 
-## Terms I should be familiar with
-- ==object aggregation== - creating an instance of a class as a field
 
 
 

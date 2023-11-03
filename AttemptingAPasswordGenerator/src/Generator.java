@@ -12,6 +12,7 @@ public class Generator {
         passwordLength = input.nextInt();
 
         
+        
     }
     
 }

@@ -1,6 +1,8 @@
-package concepts;
+package leetcode;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Map;
+import java.util.HashMap;
 
 public class LearningHashMaps {
 	public static int[] twoSum(int[] nums, int target) {
