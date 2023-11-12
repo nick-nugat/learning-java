@@ -35,13 +35,19 @@ public class ArrayDemo {
                     initial = scores[i][2];
             }
         }
-
-        System.out.println("max value in third column: " + initial);
+        //finding total
+        double total = 0;
+        for (int i = 0; i < scores.length; i++) {
+            for (int j = 0; j < scores[i].length; j++) {
+                total += scores[i][j];
+            }
         }
-
-
+        System.out.println("max value in third column: " + initial);
+        System.out.println("total value: " + total);
 
 
     }
+
+}
 
 

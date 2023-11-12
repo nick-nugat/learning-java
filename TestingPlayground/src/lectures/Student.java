@@ -29,4 +29,18 @@ public class Student extends Person {
 	public String toString() {
 		return getName() + ", " + getAge() + ", " + getId() + ", " + getGrade();
 	}
+
+	@Override
+	public boolean equals(Object s){
+		Student temp = (Student) s;
+
+		return super.equals(temp)
+				&& this.id.equals(temp.id)
+				&& this.grade == temp.grade;
+	}
+
+	@Override
+	public double getPay(){
+		return 1000;
+	}
 }
