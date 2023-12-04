@@ -1,7 +1,7 @@
 package lectures;
 
 
-public class Person
+public class Person implements Comparable<Person>
 {
 
     private String name;
@@ -52,4 +52,10 @@ public class Person
     }
 
 
+    @Override
+    public int compareTo(Person o) {
+        Person p = (Person) o;
+
+        return (this.age - o.age);
+    }
 }
