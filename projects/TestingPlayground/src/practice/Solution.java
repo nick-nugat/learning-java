@@ -1,23 +1,37 @@
 package practice;
 
-import java.util.ArrayList;
-import java.util.List;
+/**
+ * Definition for singly-linked list.
+ */
 
 class Solution {
-	public static int removeElement(int[] nums, int val) {
-		List<Integer> arrayList = new ArrayList<>();
-		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] != val) arrayList.add(i, nums[i]);
-		}
+	public static void main(String[] args) {
+		ListNode node = new ListNode(123);
+		ListNode node1 = new ListNode(234);
 
-		return arrayList.size();
+//		System.out.print(addTwoNumbers(node, node1));
+		System.out.println(node.val + node1.val);
 
 	}
+//	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+//
+//		return l1.val;
+//
+//	}
+}
 
-	public static void main(String[] args) {
-		int[] arr = {1, 2, 1};
-		int val = 2;
+class ListNode {
+	int val;
+	ListNode next;
 
-		System.out.println(removeElement(arr, val));
+	ListNode() {}
+
+	ListNode(int val) {
+		this.val = val;
+	}
+
+	ListNode(int val, ListNode next) {
+		this.val = val;
+		this.next = next;
 	}
 }
